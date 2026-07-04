@@ -10689,15 +10689,28 @@ body {
     padding: 8rem 0 2rem;
     background: linear-gradient(
             to bottom,
-            rgba(0, 0, 0, 0.1) 0%,
-            rgba(0, 0, 0, 0.2) 98%,
+            rgba(0, 0, 0, 0.35) 0%,
+            rgba(0, 0, 0, 0.55) 98%,
             #000000 100%
         ),
-        url("../images/stockPhotos/nepalcross-green.jpg");
+        url("../Images/Church.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+}
+
+/* Shorter hero for interior pages (about/schedule/support) */
+.masthead-sm {
+    min-height: 18rem;
+    padding: 8rem 0 2rem;
+}
+@media (min-width: 992px) {
+    .masthead-sm {
+        height: auto;
+        min-height: 22rem;
+        padding: 10rem 0 2rem;
+    }
 }
 .masthead h1 {
     font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -10798,17 +10811,7 @@ body {
 
 .gallery-section {
     padding: 10rem 0;
-    background: linear-gradient(
-            to bottom,
-            rgba(0, 0, 0, 0.1) 0%,
-            rgba(0, 0, 0, 0.2) 98%,
-            #000000 100%
-        ),
-        url("../images/stockPhotos/nepalgrass-green.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
+    background: linear-gradient(to bottom, #000000 0%, #0a0a0a 100%);
 }
 .gallery-section .form-inline input {
     box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
